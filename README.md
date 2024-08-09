@@ -4,6 +4,13 @@
 
 **NOTE**: Find the specific branch based on your required templates.
 
+## Templates
+
+### custon-user-phone-verify-knox-taggit-notifications
+```bash
+git clone -b templates/custon-user-phone-verify-knox-taggit-notifications git@github.com:belal-bh/DRF-starter.git
+```
+
 ## Django Starter Steps to follow
 -   Clone this repository (choose the right branch as your need)
 -   Check `python runtime (Compatible Python version)` in `runtime.txt` file. Update `runtime.txt` if needed.
