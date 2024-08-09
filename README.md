@@ -1,4 +1,4 @@
-# DRF Starter
+# DRF Starter: Custon User, Phone Verify, knox, taggit, notifications
 
 **Django Rest Framework (DRF) starter project template.**
 

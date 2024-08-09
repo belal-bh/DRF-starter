@@ -1,0 +1,58 @@
+################################
+# only main requirements will be listed here. 
+# dependencies will be automatically installed.
+################################
+
+# Basic packages
+Django==4.2
+Pillow
+psycopg2-binary
+
+# required for phone number
+django-phonenumber-field[phonenumbers]
+
+# phone verify package
+django-phone-verify
+
+# username validator
+python-usernames
+
+# utility packages
+django-model-utils
+
+# django-taggit package
+django-taggit
+
+# django notifications
+django-notifications-hq
+
+# packages for environment variable
+python-decouple
+dj-database-url
+
+# Django Rest Framework
+djangorestframework
+markdown       # Markdown support for the browsable API.
+django-filter  # Filtering support
+
+
+#############################
+# HEROKUAPP ONLY PACKAGES
+#############################
+gunicorn
+whitenoise
+
+#############################
+# DEVELOPMENT ONLY PACKAGES
+#############################
+# code formatter
+autopep8
+
+##############################
+# ISSUE FIXING INSTALLATION
+##############################
+# PyJWT==2.0.1 # issue #1
+# PyJWT==1.7.1
+
+# In python 12 for virtual environment raised `ModuleNotFoundError: No module named 'distutils'`
+setuptools
