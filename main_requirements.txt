@@ -35,6 +35,9 @@ djangorestframework
 markdown       # Markdown support for the browsable API.
 django-filter  # Filtering support
 
+# Authentication
+django-rest-knox
+
 
 #############################
 # HEROKUAPP ONLY PACKAGES

@@ -17,6 +17,7 @@ django-model-utils==4.5.1
 django-notifications-hq==1.8.3
 django-phone-verify==3.0.0
 django-phonenumber-field==8.0.0
+django-rest-knox==5.0.1
 django-taggit==6.0.0
 djangorestframework==3.15.2
 frozenlist==1.4.1
