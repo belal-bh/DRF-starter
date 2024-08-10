@@ -4,20 +4,6 @@ from django.core.exceptions import ImproperlyConfigured
 from django.utils.timezone import utc
 from phone_verify.models import SMSVerification
 
-# Settings for phone_verify utils
-try:
-    phone_verification_utils_settings = settings.PHONE_VERIFICATION_UTILS
-except AttributeError:
-    raise ImproperlyConfigured(
-        "Please define PHONE_VERIFICATION_UTILS in settings")
-
-SCHEME = phone_verification_utils_settings.get('SCHEME')
-HOST = phone_verification_utils_settings.get('HOST')
-PHONE_VERIFY_REGISTER_PATH = phone_verification_utils_settings.get(
-    'PHONE_VERIFY_REGISTER_PATH')
-PHONE_VERIFY_VERIFY_PATH = phone_verification_utils_settings.get(
-    'PHONE_VERIFY_VERIFY_PATH')
-
 
 def get_time_diff_second(time_since):
     """

@@ -214,13 +214,3 @@ PHONE_VERIFICATION = {
     # If False, then a security code can be used multiple times for verification
     'VERIFY_SECURITY_CODE_ONLY_ONCE': config('PHONE_VERIFICATION_VERIFY_SECURITY_CODE_ONLY_ONCE', default=True, cast=bool),
 }
-
-# Settings for phone_verify utils
-PHONE_VERIFICATION_UTILS = {
-    # SOME HARD CODDED STRING THAT IS NEED IN PHONE VERIFICATION UTILS
-    # CONSIDER TO MANUALLY UPDATE
-    'SCHEME': config('PHONE_VERIFICATION_SCHEME', default='http'),
-    'HOST': config('PHONE_VERIFICATION_HOST', default='127.0.0.1:8000'),
-    'PHONE_VERIFY_REGISTER_PATH': config('PHONE_VERIFICATION_PHONE_VERIFY_REGISTER_PATH', default='/api/phone-verify/register'),
-    'PHONE_VERIFY_VERIFY_PATH': config('PHONE_VERIFICATION_PHONE_VERIFY_VERIFY_PATH', default='/api/phone-verify/verify'),
-}
